@@ -52,7 +52,7 @@ app.layout = html.Div(
                                 },
                                 "xaxis": {"fixedrange": True},
                                 "yaxis": {
-                                    "tickprefix": "$",
+                                    "ticksuffix": "%",
                                     "fixedrange": True,
                                 },
                                 "colorway": ["#17b897"],
@@ -92,7 +92,7 @@ app.layout = html.Div(
                                 },
                                 "xaxis": {"fixedrange": True},
                                 "yaxis": {
-                                    "tickprefix": "$",
+                                    "ticksuffix": "°",
                                     "fixedrange": True,
                                 },
                                 "colorway": ["#17b897"],
@@ -101,9 +101,6 @@ app.layout = html.Div(
                     ),
                     className="card",
                 ),
-
-                # ...
-
             ],
             className="wrapper",
         ),
